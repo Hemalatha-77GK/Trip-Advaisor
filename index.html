@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tripadvisor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="navbar-s1">
+            <img src="image\trip.png" alt="">
+            <h1>Tripadvisor</h1>
+        </div>
+        <div class="input"><i class="fa-solid fa-magnifying-glass" style="color: #01060e;"></i>
+            <input placeholder="search">
+        </div>
+        <div class="navbar-s2">
+            <div class="navbar-s2__p1">
+            <b>Discover</b>
+            <div class="popup1">
+                <p>Travellers choice</p>
+                <p>Travel stories</p>
+            </div>
+        </div>
+        <div class="navbar-s2__p2">
+            <b>Trips</b>
+            <div class="popup2">
+                <p>view my trips</p>
+                <p>Start a new trip</p>
+                <p>Create new trip with AI</p>
+            </div>
+        </div>
+        <div class="navbar-s2__p3">
+            <b>Review</b>
+            <div class="popup3">
+                <p>Write a Review</p>
+                <p>Post photos</p>
+                <p>Add a place</p>
+            </div>
+        </div>
+            <b>Forums</b>
+        </div>
+        <div class="navbar-s3">
+            <div class="navbar-s3__preference">
+            <i class="fa-solid fa-globe" style="color: #0a0000;"></i>
+         <p>| INR</p></div>
+         <button>Sign in</button>
+            </div>
+        </div>
+        <div class="navbar-s4">
+            <b>Hotels</b>
+            <b>Things to you</b>
+            <b>Restaurants</b>
+            <b>Flights</b>
+            <b>HolidayHomes</b>
+            <b>Forums</b>
+        </div>
+    </div>
+    
+    <div class="title">
+        <h1>Where to?</h1>
+    </div>
+    <div class="categories">
+        <input type="radio" id="searchall" name="category" checked>
+        <label for="searchall">
+        <i class="fa-solid fa-house"></i>
+        <p>Search All</p>
+        </label>
+        <input type="radio" id="Hotels" name="category" checked>
+        <label for="Hotels">
+        <i class="fa-solid fa-hotel"></i>
+        <p>Hotels</p>
+        </label>
+        <input type="radio" id="ThingstoDo" name="category" checked>
+        <label for="ThingstoDo">
+        <i class="fa-solid fa-camera"></i>
+        <p>Things to Do</p>
+        </label>
+        <input type="radio" id="Restaurants" name="category" checked>
+        <label for="Restaurants">
+        <i class="fa-solid fa-utensils"></i>
+        <p>Restaurants</p>
+        </label>
+        <input type="radio" id="Flights" name="category" checked>
+        <label for="Flights">
+        <i class="fa-solid fa-plane-circle-check"></i>
+        <p>Flights</p>
+        </label>
+        <input type="radio" id="HolidayHomes" name="category" checked>
+        <label for="HolidayHomes">
+        <i class="fa-solid fa-house-user"></i>
+        <p>HolidayHomes</p>
+        </label>
+    </div>
+        
+        <div class="search">
+            <div class="search__container">
+            <div class="search__input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder="Place to go,Hotels....">
+            </div>
+            <div class="button">
+            <button>Search</button></div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="image/caption.jpg" alt="">
+            <div class="image__tripai">
+                <h1>Plan a trip that's so you</h2>
+                    <p>From farm tours to forest bathing–get custom recs for whatever you're into.</p>
+            </div>
+        </div>
+        
+        <div class="seasides">
+            <h1 class="seasides__title">Explore the world's most stunning seasides</h1>
+            <p>2025's Travellers' Choice Awards Best of the Best Beaches</p>
+            <div class="seasides__container">
+                <div class="image">
+                <img src="image/europe.jpg" alt="">
+                <h2 class="title">Europe</h2>
+                </div>
+                <div class="image">
+                <img src="image/world.jpg" alt="">
+            <h2 class="title">World</h2></div>
+                <div class="image">
+                <img src="image/SA.jpg" alt="">
+            <h2 class="title">South pacific</h2></div>
+                <div class="image">
+                <img src="image/world.jpg" alt="">
+            <h2 class="title">Mexico</h2></div>
+                <div class="image">
+                <img src="image/europe.jpg" alt="">
+            <h2 class="title">Thailand</h2></div>
+                <div class="image">
+                <img src="image/SA.jpg" alt="">
+            <h2 class="title">Bali</h2></div>
+            </div>
+         </div>
+         <div class="tnchennai">
+            <h1 class="chennai">Ways to tour Chennai (Madras)</h1>
+            <p>Book these experiences for a close-up look at Chennai (Madras)</p>
+           <div class="chennai__container">
+            <button class="prev" onclick="document.getElementById('slider').scrollLeft -=300;">&#10094</button>
+              <div class="slider" id="slider">
+                <div class="toppics">
+                    <img src="image/chennai1.jpg" alt="">
+                    <h2>Highlights of chennai</h2>
+                    <p><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #83e2cf;"></i></p>
+                    <p>from<i class="fa-solid fa-indian-rupee-sign"></i>6670 per group</p>
+                </div>
+                <div class="toppics">
+                    <img src="image/chennai2.jpg" alt="">
+                    <h2>Private chennai day tour-Art History and Contemporary chennai</h2>
+                    <p><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #83e2cf;"></i></p>
+                    <p>from<i class="fa-solid fa-indian-rupee-sign"></i>6870 per group</p>
+                </div>
+                <div class="toppics">
+                    <img src="image/chennai3.jpg" alt="">
+                    <h2>Private 6 days exotic Tamilnadu Tour from chennai</h2>
+                    <p><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #83e2cf;"></i></p>
+                    <p>from<i class="fa-solid fa-indian-rupee-sign"></i>6670 per group</p>
+                </div>
+                <div class="toppics">
+                    <img src="image/chennai4.jpg" alt="">
+                    <h2>Private day trip to Mahabalipuram from chennai with Expert guide</h2>
+                    <p><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #83e2cf;"></i></p>
+                    <p>from<i class="fa-solid fa-indian-rupee-sign"></i>6670 per group</p>
+                </div>
+                <div class="toppics">
+                    <img src="image/chennai5.jpg" alt="">
+                    <h2>Private chennai city tour by tourism ministry approved company</h2>
+                    <p><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #83e2cf;"></i></p>
+                    <p>from<i class="fa-solid fa-indian-rupee-sign"></i>6670 per group</p>
+                </div>
+                <div class="toppics">
+                    <img src="image/chennai1.jpg" alt="">
+                    <h2>Highlights of chennai</h2>
+                    <p><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle" style="color: #78ddbc;"></i><i class="fa-solid fa-circle-half-stroke" style="color: #83e2cf;"></i></p>
+                    <p>from<i class="fa-solid fa-indian-rupee-sign"></i>6670 per group</p>
+                </div>
+                </div>
+                <button class="next" onclick="document.getElementById('slider').scrollLeft +=300;">&#10095;</button>
+            </div>
+         </div> 
+         <div class="bottom" >
+            <div class="bottom__image">
+            <img src="image/travel.jpg" alt=""></div>
+            <div class="bottomline">
+                <h1>Travellers' Choice Awards Best of the Best</h1>
+                <p>Among our top 1% of places, stays, eats, and experiences—decided by you.</p>
+            <button>see the winners</button>
+            </div>
+         </div>  
+         <div class="footer">
+             <div class="footer-s1">
+                <div class="footer-s1__part1">
+                   <div class="part1">
+                     <h4>About Tripadvisor</h4>
+                     <p>About us</p>
+                     <p>press</p>
+                     <p>Resources and policies</p>
+                     <p>career</p>
+                     <p>Trust & safety</p>
+                     <p>contact us</p>
+                     <p>Accessibility statement</p>
+                   </div>
+                   <div class="part2">
+                      <h4>Explore</h4>
+                      <p>Write a Review</p>
+                      <p>Add a place</p>
+                      <p>Join</p>
+                      <p>Travellers choice</p>
+                      <p>Help centre</p>
+                      <p>Travel Stories</p>
+                   </div>
+                   <div class="part3">
+                    <div class="part3__a">
+                      <h4>Do Business With Us</h4>
+                      <p>Owners & DMO/CVB</p>
+                      <p>Business Advantage</p>
+                      <p>Sponsores Placement</p>
+                      <p>Access our content API</p>
+                    </div>
+                     <div class="part3__b">
+                        <h4>Get The App</h4>
+                        <p>iphone app</p>
+                        <p>Android app</p>
+                     </div>
+                   </div>
+                </div>
+                <div class="footer-s1__part2">
+                    <h4>Tripadvisor Sites</h4>
+                    <p>Book tours and attraction tickets on Viator</p>
+                </div>
+             </div>
+             <div class="footer-s2">
+                <div class="footer-s2__part1">
+                <img src="image\trip.png" alt="">
+                <p>&copy; 2025 Tripadvisor LLC All rights reserved.</p>
+                 <b>Terms of use</b>
+                 <b>Privacy and cookies statement</b>
+                 <b>cookie consent</b>
+                 <b>Site Map</b>
+                 <b>How the site works</b>
+                 <b>Contact us</b>
+                </div>
+                <div class="footer-2__part2">
+                    <div class="inputtab">
+                        <div class="custom-dropdown">
+                    <input placeholder="INR" readonly></div>
+                    <div class="custom-dropdown">
+                    <input placeholder="India" readonly></div></div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+
+
+                </div>
+             </div>
+
+
+
+         </div>
+</body>
+</html>
